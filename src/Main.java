@@ -10,6 +10,8 @@ public class Main extends PApplet {
         PApplet.main(new String[]{"Main"});
     }
 
+    //this is a test
+
     @Override
     public void settings() {
         size(800, 600);
