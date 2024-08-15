@@ -14,7 +14,7 @@ public class Main extends PApplet {
 
     @Override
     public void settings() {
-        size(800, 600);
+        size(1000, 1000);
         //fullScreen();
     }
 
@@ -31,11 +31,12 @@ public class Main extends PApplet {
     public void draw() {
         //background(100);
         for (Spark s : sparks){
+            s.update();
             s.display();
         }
-        for (Spark s : sparks){
-            s.update();
-        }
+//        for (Spark s : sparks){
+//
+//        }
     }
 
     @Override
